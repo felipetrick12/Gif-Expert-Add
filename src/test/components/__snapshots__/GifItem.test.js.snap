@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba de Componente GifItem Deberia renderizar el componente  1`] = `
+<div
+  className="card animate__animated animate__zoomInDown"
+>
+  <p>
+    soy rick
+  </p>
+  <img
+    alt="soy rick"
+    src="https://www.facebook.com"
+  />
+</div>
+`;

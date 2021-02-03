@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probar Componenete GifExperAdd El componente tiene que pasar  1`] = `
+<Fragment>
+  <h3>
+    GifExpertAdd
+  </h3>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="naruto"
+      key="naruto"
+    />
+    <GifGrid
+      category="Rick and morty"
+      key="Rick and morty"
+    />
+  </ol>
+</Fragment>
+`;
