@@ -23,7 +23,7 @@ export const AddCategory = ({ setCategories }) => {
 
     return (
         <form onSubmit={ handleSubmit }>
-            <p>{inputValue}</p>
+            <p>Ingresa el gift que quieres buscar</p>
             <input 
                 type="text"
                 value={ inputValue }

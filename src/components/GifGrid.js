@@ -2,6 +2,8 @@ import React from "react";
 import { useEffectGitch } from "../hooks/useEffectGitch";
 import GifItem from "./GifItem";
 import PropTypes from 'prop-types';
+
+
 export const GifGrid = ({ category }) => {
    
        const {data:imagen,loading}= useEffectGitch(category);
